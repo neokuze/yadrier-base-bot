@@ -19,6 +19,6 @@ DiscordUser = """
         suffix TEXT,
         nick TEXT,
         birthday TEXT,
-        created_at TEXT,
+        created_at TEXT
     )
 """
