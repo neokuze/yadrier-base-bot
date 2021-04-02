@@ -62,9 +62,8 @@ class Main:
                 a, n, d)
             print(msg)
         finally:
-            if main.close_db_on_close:
-                _ = [getattr(main, str(x)).closing_db()
-                    for x in main if str(x)[:1] != "_" and hasattr(main, f"{x}", "closing_db")]
+            if self.close_db_on_close:
+                self._client.discord.closing_db()
 
     def set_properties_before(self, loader, accounts):
         self._loader = loader
