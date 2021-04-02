@@ -1,0 +1,9 @@
+{
+  "auth" : "/data/bot_credentials.json",
+  "debug": false,
+  "paths": {
+    "base": "/utils/config/base_and_config",
+    "mydb": "/utils/config/db"
+  },
+  "privatemessages": true
+}

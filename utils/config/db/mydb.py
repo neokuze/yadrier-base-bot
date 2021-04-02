@@ -4,8 +4,8 @@ from datetime import datetime
 import asyncio
 
 conf = {
-    "discord_guilds": ["/data/in/discord/guilds.db", "DiscordGuild"],
-    "discord_users": ["/data/in/discord/users.db", "DiscordUser"],
+    "discord_guilds": ["/data/guilds/guilds.db", "DiscordGuild"],
+    "discord_users": ["/data/users/users.db", "DiscordUser"],
 }
 
 class DataBase:
