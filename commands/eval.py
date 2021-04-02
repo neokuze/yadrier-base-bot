@@ -1,5 +1,7 @@
 import sys
 
+for_owners = True
+
 async def run(self, message, args, lcs):
     locs = {}
     print("weeee")
