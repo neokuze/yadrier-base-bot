@@ -1,4 +1,5 @@
 {
   "done": "Done.",
-  "no_args": "arguments missing."
+  "no_args": "arguments missing.",
+  "notowner": "You doesn't have permission to do that."
 }
