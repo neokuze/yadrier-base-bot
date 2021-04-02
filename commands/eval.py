@@ -4,7 +4,6 @@ for_owners = True
 
 async def run(self, message, args, lcs):
     locs = {}
-    print("weeee")
     if not args:
         ret = self.config.get_lang(lcs.cuser.lang, 'no_args')
     else:
