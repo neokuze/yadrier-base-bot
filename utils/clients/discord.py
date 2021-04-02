@@ -62,3 +62,6 @@ class Bot(discord.Client):
                         msg = await modulo.run(self, message, args, lcs)
         except Exception as e:
             print(e)
+    def closing_db(self):
+        self.config.users.close()
+        self.config.guild.close()
