@@ -1,6 +1,6 @@
 # yadrier-base-bot
 `Required: <= Python3.9.0
-`Required: discord.py >= cloned directly from rapptz` 
+`Required:` [rapptz/discord.py](https://github.com/Rapptz/discord.py) `better if is cloned from github.`
 
 # Instructions
  Go to `utils/config/base_and_config/config.py` and edit self.owners
