@@ -42,8 +42,9 @@ class Bot(discord.Client):
             
             if len(message.content.split()) > 1:
                 cmd, args = message.content.split(" ", 1)
+                args = args.split()
             else:
-                cmd, args = message.content.lower(), ""
+                cmd, args = message.content.lower(), []
             cmd = cmd.lower()
             _lcs = {'cuser': cuser, 'cguild': cguild, 'cmd': cmd, 'lang': cuser.lang}
             lcs = config.Struct(**_lcs)
