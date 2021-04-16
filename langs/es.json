@@ -1,5 +1,7 @@
 {
-    "done": "Hecho.",
-    "no_args": "Faltan argumentos",
-     "notowner": "No tienes permisos para eso."
-  }
+  "done": "Hecho.",
+  "no_args": "Faltan argumentos",
+  "notowner": "No tienes permisos para eso."
+  "lang.listall": "Lenguajes disponibles: {}.",
+  "lang.success": "Lenguaje cambiado a {} exitosamente."
+}
