@@ -2,6 +2,6 @@
   "done": "Done.",
   "no_args": "arguments missing.",
   "notowner": "You doesn't have permission to do that",
-  "lang.listall": "Available languages: {}",
-  "lang.success": "Language was set to {}"
+  "lang.listall": "Available languages: {}.",
+  "lang.success": "Language was set to {}."
 }
