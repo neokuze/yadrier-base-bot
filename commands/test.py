@@ -1,3 +1,4 @@
 
 async def run(self, message, args, lcs):
-    await message.channel.send(f"Hello {message.author}!")
+    msg = self.config.get_lang(lcs.lang, "hello").format(message.author)
+    await message.channel.send(msg)
