@@ -5,7 +5,6 @@ class Union:
     def __init__(self):
         self.langs = {}
         self.cmds = {}
-        self.default_bot = {"prefix": "."}
 
     def load_all(self):
         self.load_cmds()
